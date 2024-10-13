@@ -1,12 +1,13 @@
 from itertools import *
-alf = 'ДЕМОСТ'
+
+alf = "ДЕМОСТ"
 c = permutations(alf, 6)
-d=0
+d = 0
 for i in c:
-   s = ''.join(i)
-   d+=1
-   if d == 377:
-      print(s)
+    s = "".join(i)
+    d += 1
+    if d == 377:
+        print(s)
 
 
 # Все 5-буквенные слова, составленные из букв М,О,Р,Е записаны в алфавитном порядке. Вот начало списка:
